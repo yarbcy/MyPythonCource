@@ -1,6 +1,5 @@
 import sys
 
-
 try:
     print('Please enter first number')
     first  = float(input('Enter first number: '))
