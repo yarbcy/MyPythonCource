@@ -6,7 +6,7 @@ try:
     print('Please enter second number')
     second = float(input('Enter second number: '))
 except:
-    print('You entered non integer values. Exit from script.')
+    print('You entered non integer value. Exit from script.')
     sys.exit(True)
 
 print(first + second)
