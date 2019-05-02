@@ -1,7 +1,4 @@
-import contextlib, io
-zen = io.StringIO()
-with contextlib.redirect_stdout(zen):
-    import this
+value = 7192
 
-print(zen.getvalue().upper())
+
 
