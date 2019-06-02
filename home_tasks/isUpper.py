@@ -11,5 +11,4 @@ def is_uppercase(inp):
         if i.isalpha():
             if not i.isupper():
                 return False
-                break
     return True
